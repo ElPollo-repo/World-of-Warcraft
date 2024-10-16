@@ -1,0 +1,167 @@
+A_001_ExplosionArcana
+#showtooltip
+/cleartarget [dead][noharm]
+/targetenemy [noexists]
+/cast Explosión Arcana
+
+A_002_TrombaArcana
+#showtooltip
+/cleartarget [dead][noharm]
+/targetenemy [noexists]
+/cast Tromba Arcana
+
+A_003_MisilesArcanos
+#showtooltip
+/cleartarget [dead][noharm]
+/targetenemy [noexists]
+/cast Misiles Arcanos
+
+A_004_OrbeArcano
+#showtooltip
+/cleartarget [dead][noharm]
+/targetenemy [noexists]
+/cast Orbe Arcano
+
+A_005_ToqueDeMagi(4 cargas arcanas)
+#showtooltip Toque del Magi
+/cleartarget [dead][noharm]
+/targetenemy [noexists]
+/castsequence reset=10 Toque del Magi, Explosión Arcana
+
+A_005_ToqueDeMagi2 (menos de 4 cargas arcanas)
+#showtooltip Toque del Magi
+/cleartarget [dead][noharm]
+/targetenemy [noexists]
+/castsequence reset=10 Tromba Arcana, Toque del Magi, Explosión Arcana
+
+A_006_Burst
+#showtooltip 13
+/cleartarget [dead][noharm]
+/targetenemy [noexists]
+/use Poción fugaz templada
+/use item:212265
+/use item:212264
+/use item:212263
+/use 13
+/cast Rabiar(Racial)
+/cast Oleada arcana
+
+A_007_Burst2
+#showtooltip Oleada arcana
+/cleartarget [dead][noharm]
+/targetenemy [noexists]
+/use Poción fugaz templada
+/use item:212265
+/use item:212264
+/use item:212263
+/cast Rabiar(Racial)
+/cast Oleada arcana
+
+F_001_Fireblast
+#showtooltip
+/cleartarget [dead][noharm]
+/targetenemy [noexists]
+/cast Explosión de Fuego
+
+F_002_Fireball
+#showtooltip Bola de Fuego
+/cleartarget [dead][noharm]
+/targetenemy [noexists]
+/cast Bola de Fuego
+
+F_003_Fenix
+#showtooltip Llamas del Fénix
+/cleartarget [dead][noharm]
+/targetenemy [noexists]
+/cast Llamas del Fénix
+
+F_004_Pyro
+#showtooltip Piroexplosión
+/cleartarget [dead][noharm]
+/targetenemy [noexists]
+/cast Piroexplosión
+
+F_005_Agostar
+#showtooltip
+/cleartarget [dead][noharm]
+/targetenemy [noexists]
+/cast Agostar
+
+F_006_Fogonazo
+#showtooltip Fogonazo
+/cleartarget [dead][noharm]
+/targetenemy [noexists]
+/cast [@cursor] Fogonazo
+
+F_007_Combustion
+#showtooltip Combustión
+/cleartarget [dead][noharm]
+/targetenemy [noexists]
+/cast Rabiar(Racial)
+/castsequence reset=10 Combustión, Explosión de Fuego, Piroexplosión, Piroexplosión
+
+F_007_Combustion2
+#showtooltip Combustión
+/cleartarget [dead][noharm]
+/targetenemy [noexists]
+/cast Rabiar(Racial)
+/castsequence reset=10 Combustión, Piroexplosión, Piroexplosión
+
+F_007_Combustion3
+#showtooltip 13
+/cleartarget [dead][noharm]
+/targetenemy [noexists]
+/use 13
+/cast Rabiar(Racial)
+/castsequence reset=10 Combustión, Piroexplosión, Piroexplosión
+
+M_001_Blink
+#showtooltip 
+/cast Resplandecer
+
+M_002_HERO
+#showtooltip
+/cast Distorsión temporal
+
+M_003_Counterspell
+#showtooltip
+/cast [@focus,exists,harm] Contrahechizo; Contrahechizo
+
+M_004_Maldicion
+#showtooltip
+/cast [@mouseover,help,nodead] Eliminar maldición; [@mouseover,harm,nodead] [harm] Robar hechizo; Eliminar maldición
+
+M_005_Escudos
+#showtooltip
+/cast Barrera prismática
+/cast Barrera flameante
+
+M_006_InviPiedra
+#showtooltip Invisibilidad superior
+/use Piedra de salud
+/cast Invisibilidad superior
+
+M_007_Bloque
+#showtooltip Frío polar
+/stopcasting
+/cast Frío polar
+
+M_017_SheepFocus
+#showtooltip
+/cast [@focus,exists,harm] Polimorfia(Oveja)); Polimorfia(Oveja)
+
+Z_Bossbutton
+/target boss1
+/click ExtraActionButton1
+/targetlasttarget
+
+Z_Focus
+/focus [@mouseover,nodead,exists,harm]
+/use Fragmento de control de portal
+
+Z_Pota
+#showtooltip Poción de sanación algari
+/use Poción de sanación algari fugaz
+/use item:211878
+/use item:211879
+/use item:211880
