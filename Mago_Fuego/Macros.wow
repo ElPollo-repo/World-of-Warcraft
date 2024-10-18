@@ -1,0 +1,42 @@
+F_001_Fireblast
+#showtooltip
+/cast Explosión de Fuego
+
+F_002_Fireball
+#showtooltip Bola de Fuego
+/cast Bola de Fuego
+
+F_003_Fenix
+#showtooltip Llamas del Fénix
+/cast Llamas del Fénix
+
+F_004_Pyro
+#showtooltip Piroexplosión
+/cast Piroexplosión
+
+F_005_Agostar
+#showtooltip
+/cast Agostar
+
+F_006_Fogonazo
+#showtooltip Fogonazo
+/cast [@cursor] Fogonazo
+
+F_007_Combustion
+#showtooltip Combustión
+/targetenemy
+/cast Rabiar(Racial)
+/castsequence reset=10 Combustión, Explosión de Fuego, Piroexplosión, Piroexplosión
+
+F_007_Combustion2
+#showtooltip Combustión
+/targetenemy
+/cast Rabiar(Racial)
+/castsequence reset=10 Combustión, Piroexplosión, Piroexplosión
+
+F_007_Combustion3
+#showtooltip 13
+/targetenemy
+/use 13
+/cast Rabiar(Racial)
+/castsequence reset=10 Combustión, Piroexplosión, Piroexplosión

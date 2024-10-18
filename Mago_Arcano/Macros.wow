@@ -1,0 +1,43 @@
+A_001_ExplosionArcana
+#showtooltip
+/cast Explosión Arcana
+
+A_002_TrombaArcana
+#showtooltip
+/cast Tromba Arcana
+
+A_003_MisilesArcanos
+#showtooltip
+/cast Misiles Arcanos
+
+A_004_OrbeArcano
+#showtooltip
+/cast Orbe Arcano
+
+A_005_ToqueDeMagi (4 cargas arcanas)
+#showtooltip Toque del Magi
+/targetenemy
+/cast Toque del Magi
+/cast Explosión Arcana
+
+A_005_ToqueDeMagi2 (menos de 4 cargas arcanas)
+#showtooltip Toque del Magi
+/targetenemy
+/castsequence reset=10 Tromba Arcana, Toque del Magi, Toque del Magi
+
+A_006_ToqueDeMagi3 (Burst con Trinket)
+#showtooltip 13
+/targetenemy
+/use Poción fugaz templada
+/use item:212265
+/use item:212264
+/use item:212263
+/use 13
+/cast Rabiar(Racial)
+/castsequence reset=10 Tromba Arcana, Toque del Magi, Toque del Magi
+
+A_007_Burst2
+#showtooltip Oleada arcana
+/targetenemy
+/cast Oleada arcana
+/cqs

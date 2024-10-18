@@ -1,0 +1,34 @@
+M_001_Blink
+#showtooltip
+/cast Resplandecer
+
+M_002_HERO
+#showtooltip
+/cast Distorsión temporal
+
+M_003_Counterspell
+#showtooltip
+/cast [@focus,exists,harm] Contrahechizo; Contrahechizo
+
+M_004_Maldicion/RobarHechizo
+#showtooltip
+/cast [@mouseover,help,nodead] Eliminar maldición; [@mouseover,harm,nodead] [harm] Robar hechizo; Eliminar maldición
+
+M_005_Escudos
+#showtooltip
+/cast Barrera prismática
+/cast Barrera flameante
+
+M_006_InviPiedra
+#showtooltip Invisibilidad superior
+/use Piedra de salud
+/cast Invisibilidad superior
+
+M_007_Bloque
+#showtooltip Frío polar
+/stopcasting
+/cast Frío polar
+
+M_017_SheepFocus
+#showtooltip
+/cast [@focus,exists,harm] Polimorfia(Oveja); Polimorfia(Oveja)

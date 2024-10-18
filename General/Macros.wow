@@ -1,0 +1,14 @@
+Z_Bossbutton
+/click ExtraActionButton1
+/targetlasttarget
+
+Z_Focus
+/focus [@mouseover,nodead,exists,harm]
+/use Fragmento de control de portal (Usa el portal mas cercado)
+
+Z_Pota
+#showtooltip Poción de sanación algari
+/use Poción de sanación algari fugaz
+/use item:211878
+/use item:211879
+/use item:211880
