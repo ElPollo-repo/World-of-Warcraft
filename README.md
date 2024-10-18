@@ -21,6 +21,7 @@ Para poder lograr la interfaz necesitaran los siguientes addons
 7. OmniCD
 8. WeakAuras
 9. SharedMedia
+10. Details
 
 Luego de esto podran importar los perfiles en cada uno de los addons.
 Cualquier duda me pueden encontrar en https://www.twitch.tv/elpolloparce
