@@ -16,18 +16,18 @@ A_004_OrbeArcano
 
 A_005_ToqueDeMagi (4 cargas arcanas)
 #showtooltip Toque del Magi
-/targetenemy
+/tar [nodead]
 /cast Toque del Magi
 /cast Explosión Arcana
 
 A_005_ToqueDeMagi2 (menos de 4 cargas arcanas)
 #showtooltip Toque del Magi
-/targetenemy
+/tar [nodead]
 /castsequence reset=10 Tromba Arcana, Toque del Magi, Toque del Magi
 
 A_006_ToqueDeMagi3 (Burst con Trinket)
 #showtooltip 13
-/targetenemy
+/tar [nodead]
 /use Poción fugaz templada
 /use item:212265
 /use item:212264
@@ -38,6 +38,6 @@ A_006_ToqueDeMagi3 (Burst con Trinket)
 
 A_007_Burst2
 #showtooltip Oleada arcana
-/targetenemy
+/tar [nodead]
 /cast Oleada arcana
 /cqs
