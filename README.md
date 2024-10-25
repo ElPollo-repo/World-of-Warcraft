@@ -2,8 +2,7 @@ Hola!
 
 Debido a que muchos me lo han pedido, he organizado este repositorio para que puedan acceder a toda mi interfaz.
 
-![Captura de pantalla 2024-10-25 095407](https://github.com/user-attachments/assets/b5bcf4a3-aa98-4aad-bd5e-271d38af96d7)
-![image](https://github.com/user-attachments/assets/b23cbc6e-2538-4f22-9445-74180ebe0f07)
+![Captura de pantalla 2024-10-25 095748](https://github.com/user-attachments/assets/222086c0-bf31-489b-8757-af500c8fb27a)
 
 Quiero dejar claro que el 90% o más de mi interfaz es basada en creaciones de otras personas, por lo tanto aprovecho para agradecerles.
 1. Quazi, un increible creador de contenido que ha puesto a disposición muchisima información que nos facilita la vida. https://quazii.com/
