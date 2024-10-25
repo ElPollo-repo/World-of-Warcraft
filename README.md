@@ -1,6 +1,6 @@
 Hola!
 
-Debido a que muchos me lo han pedido, he organizado este repositorio para que puedan acceder a toda mi interfaz.
+Debido a que muchos me lo han pedido, he organizado este repositorio para que puedan acceder a cada uno de los compoenntes de la interfaz que utilizo para wow.
 
 ![Captura de pantalla 2024-10-25 095748](https://github.com/user-attachments/assets/222086c0-bf31-489b-8757-af500c8fb27a)
 
