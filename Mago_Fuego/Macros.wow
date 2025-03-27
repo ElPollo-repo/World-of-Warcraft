@@ -22,21 +22,34 @@ F_006_Fogonazo
 #showtooltip Fogonazo
 /cast [@cursor] Fogonazo
 
-F_007_Combustion
+F_007_Combustion1 (Usar cuando solo se tiene calentamiento)
 #showtooltip Combustión
-/targetenemy
+/tar [nodead]
+/use 13
+/use Poción fugaz templada
+/use item:212265
+/use item:212264
 /cast Rabiar(Racial)
 /castsequence reset=10 Combustión, Explosión de Fuego, Piroexplosión, Piroexplosión
+/cqs
 
-F_007_Combustion2
+F_007_Combustion2 (Usar cuando se tiene buena racha)
 #showtooltip Combustión
-/targetenemy
+/tar [nodead]
+/use 13
+/use Poción fugaz templada
+/use item:212265
+/use item:212264
 /cast Rabiar(Racial)
 /castsequence reset=10 Combustión, Piroexplosión, Piroexplosión
 
-F_007_Combustion3
-#showtooltip 13
-/targetenemy
+F_007_Combustion3 (Para el fogonazo cuando se tiene calentamiento) Presionar 1 sola vez!!!!!! 
+#showtooltip Combustión
+/tar [nodead]
 /use 13
+/use Poción fugaz templada
+/use item:21226
+/use item:212264
 /cast Rabiar(Racial)
-/castsequence reset=10 Combustión, Piroexplosión, Piroexplosión
+/cast Combustión
+/cast Explosión de Fuego
